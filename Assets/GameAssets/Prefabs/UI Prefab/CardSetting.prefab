@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2601862837023949183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2601862837023949177}
+  - component: {fileID: 2601862837023949176}
+  m_Layer: 0
+  m_Name: CardSetting
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2601862837023949177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2601862837023949183}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.298352, y: 1.6028306, z: -18.177057}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2601862837023949176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2601862837023949183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b464844f3740c84eaa190e546b7a2d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemIcon:
+  - {fileID: 5938149929107066074, guid: 175a094fd2bf8ee419ef95aa6552c166, type: 3}
+  - {fileID: 5591591136060359052, guid: 175a094fd2bf8ee419ef95aa6552c166, type: 3}
+  - {fileID: 4274250190873257775, guid: 175a094fd2bf8ee419ef95aa6552c166, type: 3}
+  - {fileID: 5505252852915902345, guid: 175a094fd2bf8ee419ef95aa6552c166, type: 3}
+  specialActionIcon:
+  - {fileID: -4324696877802563053, guid: 846e99359aab0db499d0f0cf051d5648, type: 3}
+  - {fileID: -1933185895845451974, guid: 8e248d08bed741349b872be5f03c0f0a, type: 3}
+  - {fileID: 1645340124689475719, guid: 8e248d08bed741349b872be5f03c0f0a, type: 3}
